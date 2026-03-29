@@ -13,8 +13,11 @@ O **APPROVE** é uma plataforma de estudos online que combina aprendizado com ga
 Nossa missão é oferecer uma ferramenta onde os estudantes possam:
 
 -📚 Acessar conteúdos focados nas matérias mais cobradas nos exames.
+
 -🧠 Praticar com uma vasta biblioteca de questões.
+
 -📈 Acompanhar o desempenho por meio de estatísticas detalhadas.
+
 -🏆 Competir de forma saudável em um ranking geral.
 
 ##✨ Funcionalidades
@@ -22,9 +25,13 @@ Nossa missão é oferecer uma ferramenta onde os estudantes possam:
 O sistema inclui diversas funcionalidades pensadas para proporcionar a melhor experiência ao estudante:
 
 -**🔐 Autenticação segura**: sistema de cadastro e login para salvar seu progresso.
+
 -**📝 Quiz interativo**: responda questões e receba feedback imediato.
+
 -**💡 Correção detalhada**: entenda seus erros com explicações completas.
+
 -**📊 Estatísticas de desempenho**: gráficos que mostram sua evolução e taxa de acertos.
+
 -**🏅 Ranking:** veja sua posição em relação a outros estudantes (com medalhas de Bronze até Aprovado!).
 
 -**♿ Acessibilidade:**
