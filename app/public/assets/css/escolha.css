@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.contentwrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.escolhawrapper{
+     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #f6f6f6;
+}
+
+.escolhah1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 90px;
+}
+
+.opcoesWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcaoh1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.opcaoinfo1, .opcaoinfo2{
+    display: flex;   
+    flex-direction: column;
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0272B9; 
+}
+
+.opcaoinfo2{
+    background-color: #FF8503; 
+}
+
+.opcaoP{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.opcaosvg{
+    width: 180px;
+    height: 180px;
+    
+}
+
+.opcaoA{
+    text-decoration: none;    
+}
+
+body.dark-mode .escolhawrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .escolhah1{
+   color: white;
+}
+
+body.dark-mode .opcaoh1{
+    color: white;
+ }
+
+ body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+
+@media (max-width: 768px) {
+    .escolhawrapper {
+        margin-top: 60px;
+        width: 90vw; 
+        height: auto; 
+    }
+
+    .opcaoinfo1, .opcaoinfo2 {
+        width: 100%; 
+        max-width: none; 
+    }
+}
+
+@media (max-height: 800px) {
+    .escolhawrapper {
+        margin-top: 70px;
+ 
+    }
+}

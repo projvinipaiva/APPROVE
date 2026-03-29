@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.rankingwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-width: 70vw;
+    min-height: 70vh;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+                rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.classificacaoranking {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.cardsdaclassificacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.classificacaocard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    gap: 20px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.rankingh1, .rankingh2, .rankingp {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.rankingh1 {
+    font-size: 2em;
+}
+
+.rankingh2 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.rankinga, .tablebtn {
+    width: 200px;
+    padding: 6px 0;
+    border-radius: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-color: #02AFED;
+    background-color: #02AFED;
+    color: white;
+    border-style: solid;
+}
+
+.rankinga:hover, .tablebtn:hover {
+    background-color: white;
+    color: #02AFED;
+}
+
+.table-container {
+    overflow-y: auto;
+    height: 300px; 
+    width: 100%;
+}
+
+.rankingtable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+.rankingtable th, .rankingtable td {
+    padding: 10px;
+    text-align: left;
+}
+
+.rankingtable th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.rankingtable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.rankingtable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.svg-iconclass {
+    width: 120px;
+    height: auto;
+}
+
+.tablebtns {
+    width: 200px;
+    height: 40px;
+}
+
+body.dark-mode .rankingwrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .rankingh1 {
+    color: white;
+}
+
+body.dark-mode .rankingh2 {
+    color: white;
+}
+
+body.dark-mode .rankingp {
+    color: white;
+}
+
+body.dark-mode .rankingtable th{
+    background-color: #191919;
+    color: white;
+}
+
+body.dark-mode .rankingtable tr{
+    background-color: #191919;
+    color: white;
+}
+
+body.dark-mode .rankingtable td{
+    background-color: #191919;
+    color: white;
+}
+
+body.dark-mode .rankinga:hover{
+    background-color: #191919;
+    
+}
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+@media (max-width: 1400px) {
+    .rankingwrapper {
+        margin-left: 100px;
+    }
+
+    .classificacaocard{
+        width: 300px;
+        height: 300px;
+    }
+
+    .rankingh2{
+        font-size: 18px;
+    }
+
+    .rankingtable th, .rankingtable td {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .rankingtable {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.7em;
+    }
+
+    .svg-iconclass{
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .rankingwrapper {
+        margin-left: 100px;
+        width: 70vw;   
+    }
+}
+
+@media (max-width: 800px) {
+    .rankingh1 {
+        font-size: 32px;
+    }
+
+    .rankingwrapper {
+        margin-top: 200px;
+        margin-left: 0;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .rankingh1 {
+        font-size: 24px;
+    }
+
+    .rankingwrapper {
+        margin-top: 100px;
+    }
+}

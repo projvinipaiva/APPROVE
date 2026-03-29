@@ -1,0 +1,154 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+body{
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.contentwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.materiaswrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    min-height: 90vh;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    background-color: #F6F6F6;
+}
+
+.materiaH1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+   
+}
+
+.grid-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px; 
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+}
+
+.grid-item:hover{
+    transition-duration: 1s;
+    width: 180px;
+    height: 180px;
+
+}
+
+.subconteudoP{
+    color: white;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.subconteudoA{
+    text-decoration: none;
+}
+
+
+.cor-materia-1 {
+    background-color: #6c57fc; 
+}
+
+.cor-materia-2 {
+    background-color: #FFDF00 ; 
+}
+
+.cor-materia-3 {
+    background-color: #00A86B; 
+}
+
+.cor-materia-4 {
+    background-color: #CA2C92 ; 
+}
+
+.cor-materia-5 {
+    background-color: #79DBDC; 
+}
+
+.cor-materia-6 {
+    background-color: #653131; 
+}
+
+.cor-materia-7 {
+    background-color: #FF6D2D; 
+}
+
+.cor-materia-8 {
+    background-color: #A0616A;
+}
+
+.cor-materia-9 {
+    background-color: #CCCCCC; 
+}
+
+.cor-materia-10 {
+    background: linear-gradient(0deg, rgba(195,65,34,1) 0%, rgba(227,227,63,1) 100%);
+}
+
+.cor-materia-11 {
+    background:  linear-gradient(0deg, rgba(34,38,195,1) 0%, rgba(63,208,227,1) 100%);
+}
+
+
+.svg-icon {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px; 
+}
+
+body.dark-mode .materiaswrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .materiaH1{
+    color: white;
+}
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+

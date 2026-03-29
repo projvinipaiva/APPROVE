@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto; /* Permite que a página cresça conforme o conteúdo */
+    min-height: 100vh; /* Garante que a altura mínima seja a altura da tela */
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+
+.termosWrapper {
+    margin: 100px 0; /* mantém o espaço ao redor */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 70vh; /* Define uma altura mínima com base na altura da janela */
+    height: auto;
+    padding: 20px 60px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+                rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    text-align: center;
+    margin-bottom: 100px; /* Espaçamento após a div */
+}
+
+.termosH1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+body.dark-mode .termosWrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .termosH1{
+   color: white;
+}
+
+body.dark-mode p{
+    color: white;
+ }
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}

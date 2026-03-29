@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contentwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.videowrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    
+}
+
+.videoH1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.videoIframe{
+    border: ;
+    border-style: solid;
+    border-color: #191919;
+    border-radius: 15px;
+    
+}
+
+.videoA{
+ 
+    font-weight: bold;
+  
+    
+    color: white;
+    
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+.videoA:hover{
+    border-color: #02AFED;
+    background-color: white;
+    color: #02AFED;
+}
+
+.videoButton{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 20px;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-color: #02AFED;
+    background-color: #02AFED;
+    color: white;
+    border-style: solid;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+.videoButton:hover{
+    
+    background-color: white;
+    color: #02AFED;
+}
+
+body.dark-mode .videowrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .videoH1{
+    color: white;
+}
+
+body.dark-mode .videoButton:hover{
+    background-color: #191919;
+}
+
+body.dark-mode .videoA:hover{
+    background-color: #191919;
+}
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+@media (max-width: 1300px) {
+    .videoIframe{
+        width:500px ;
+        height:250px ;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    .videoIframe{
+        width:250px ;
+        height:140px ;
+    }
+
+    .videoButton{
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .videoIframe{
+        width:200px ;
+        height:100px ;
+    }
+
+    .videoButton{
+        width: 200px;
+    }
+    
+}
+

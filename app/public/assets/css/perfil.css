@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contentwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.perfilwrapper{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    min-height: 70vh;
+    height: auto;
+    align-items: center;
+    background-color: #f6f6f6;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+
+
+.perfilh1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 90px;
+}
+
+.perfilEditar{
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: #02AFED;
+    background-color: #02AFED;
+    color: white;
+    border-style: solid;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+.perfilEditar:hover{
+    background-color: white;
+    color: #02AFED;
+}
+
+.perfilSalvar{
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: #02AFED;
+    background-color: #02AFED;
+    color: white;
+    border-style: solid;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+.perfilSalvar:hover{
+    background-color: white;
+    color: #02AFED;
+}
+
+.perfilSair{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 20px;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-color: #fa4d56;
+    background-color: #fa4d56;
+    color: white;
+    border-style: solid;
+    font-family: 'poppins', sans-serif;
+}
+
+.perfilInfo{
+    padding: 20px;
+
+}
+
+.perfilSair:hover{
+    background-color: white;
+    color: #fa4d56;
+}
+
+.perfilP{
+    padding-top: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+.perfilFoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.perfiloptions a{
+    text-decoration: none;
+}
+
+
+.editarPerfilForm{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+input[type="file"]{
+    display: none;
+}
+
+
+
+.imgLabel{
+    font-size: 18px;
+    width: 400px;
+    height: 50px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #191919;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.imgLabel:hover{
+    background-color: #191919;
+    color: #f6f6f6;
+}
+
+.editarPerfilInput{
+    font-size: 18px;
+    width: 400px;
+    height: 50px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #191919;
+    text-align: center;
+}
+  
+
+
+
+
+
+
+
+body.dark-mode{
+
+   .perfilwrapper{
+        background-color: #191919;
+   }
+
+    .perfilh1{
+        color: white;
+        
+    }
+
+    .perfilP{
+        color: white;
+    }
+
+    .perfilSair:hover{
+        background-color: #191919;
+    }
+    
+    .perfilEditar:hover{
+        background-color: #191919;
+    }
+
+    .perfilwrapper{
+        background-color: #191919;
+    }
+
+    .editarPerfilForm{
+        color: white;
+    }
+
+    .editarPerfilInput{
+        border-color: white;
+    }
+
+    .imgLabel{
+        border-color: white;
+    }
+
+    .imgLabel:hover{
+        background-color: #f6f6f6;
+        color: #191919;
+    }
+
+
+}
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+
+@media (max-width: 600px) {
+    .imgLabel{
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #191919;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    
+  
+    
+    .editarPerfilInput{
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #191919;
+        text-align: center;
+    }
+
+}
+
+@media (max-height: 750px) {
+    .imgLabel{
+        font-size: 16px;
+        width: 200px;
+        height: 30px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #191919;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5px;
+    }
+    
+  
+    
+    .editarPerfilInput{
+        font-size: 18px;
+        width: 200px;
+        height: 30px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #191919;
+        text-align: center;
+    }
+
+    .perfilSalvar{
+        padding: 5px 0;
+        
+    }
+
+}

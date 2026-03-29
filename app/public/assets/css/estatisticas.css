@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contentwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.estatisticaswrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    min-height: 70vh;
+    height: auto;
+    align-items: center;
+   gap: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 350px;
+    background-color: #F6F6F6;
+    
+}
+
+.estatisticash2{
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+}
+
+.graficoWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    gap: 70px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   
+}
+
+.materiaLabel{
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+}
+
+.estatisticash1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: 52px;
+}
+
+
+
+/* Estilizando a label */
+.materiaLabel {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+select#materias {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+select#materias:hover {
+    background-color: #F6F6F6
+}
+
+
+select#materias {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><polygon points="0,0 10,0 5,10" fill="%23333"/></svg>');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+body.dark-mode{
+    .estatisticaswrapper{
+        background-color: #191919;
+
+    }
+
+    .estatisticash1{
+        color: white;
+    }
+
+    .estatisticash2{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    .materiaLabel{
+        background-color: #191919;
+        color: white;
+    }
+
+    
+   
+
+}
+
+body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+@media (max-width: 1400px) {
+    .estatisticaswrapper {
+        margin-left: 100px;
+    }
+
+    .classificacaocard{
+        width: 300px;
+        height: 300px;
+    }
+
+    .rankingh2{
+        font-size: 18px;
+    }
+
+   
+
+}
+
+@media (max-width: 1400px) {
+    .rankingwrapper {
+        margin-left: 100px;
+        width: 70vw;   
+    }
+
+    .grafico{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .rankingh1 {
+        font-size: 32px;
+    }
+
+    .estatisticaswrapper {
+        margin-top: 200px;
+        margin-left: 0;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .rankingh1 {
+        font-size: 24px;
+    }
+
+    .estatisticaswrapper {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #0485D8, #02AFED);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; 
+}
+
+.contentwrapper {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh; 
+    padding: 20px;
+
+}
+
+.correcaowrapper {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  
+    gap: 20px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-left: 350px;
+}
+
+.correcaop {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+.correcaopcorreta {
+    color: #03c04a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.correcaoh1 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-bottom: 20px; 
+}
+
+.correcaobtn{
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 0;
+    border: #02AFED;
+    border-radius: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+    border-color: #02AFED;
+    background-color: #02AFED;
+    color: white;
+    border-style: solid;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+.cdp{
+    font-family: 'poppins', sans-serif;
+}
+
+.correcaobtn:hover{
+    background-color: white;
+    color: #02AFED;
+}
+
+body.dark-mode .correcaowrapper{
+    background-color: #191919;
+}
+
+body.dark-mode .correcaoh1{
+   color: white;
+}
+
+body.dark-mode .correcaop{
+    color: white;
+ }
+
+ body.dark-mode .correcaobtn:hover{
+    background-color: #191919;
+ }
+
+ body.monochrome {
+    filter: grayscale(100%);
+}
+
+body.monochrome{
+    background-image: linear-gradient(to right, #191919, #191919);
+}
+
+
+@media screen and (max-width:1400px) {
+    .correcaowrapper{
+        margin-left: 100px;
+    }
+     
+    
+  
+}
+
+@media (max-width: 800px) {
+    .correcaoh1{
+        font-size: 32px;
+    }    
+
+    .correcaowrapper{
+        margin-top: 100px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .correcaoh1{
+        font-size: 32px;
+    }    
+
+    .correcaowrapper{
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .correcaoh1{
+        font-size: 24px;
+    }    
+
+    .correcaowrapper{
+        margin-top: 100px;
+    }
+
+    .correcaobtn{
+        width: 170px;
+    }
+}
+
+
+
+

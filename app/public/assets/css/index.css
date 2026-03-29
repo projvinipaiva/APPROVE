@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.englobaTudoHome{
+    overflow-x: hidden;
+  
+    background-image: linear-gradient(to right, #02AFED, #0485D8);
+    background-size: cover;
+}
+
+.one{
+    background-color: #02AFED;
+}
+
+.two{
+    background-color: #79DBDC;
+}
+
+.three{
+    background-color: #4169E1;
+}
+
+.four{
+    background-color: white;
+}
+
+
+
+
+.homeContent{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+}
+
+.homeInfo{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    scroll-snap-align: start;
+    
+}
+
+.homeInfo1{
+   
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(454deg, #f6f6f6 0%, #f6f6f6);
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homeInfo2{
+    
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(454deg, rgba(2,114,185,1) 0%, rgba(4,133,216,1) 63%);
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homeInfo3{
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(454deg, #f6f6f6 0%, #f6f6f6);
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homeInfo4{
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(454deg, rgba(2,114,185,1) 0%, rgba(4,133,216,1) 63%);
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.main{
+    padding-right: 240px;
+  
+}
+
+.itens-wrapper{
+ 
+    display: block
+}
+
+.homeSvg{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.homeh1{
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    font-family: 'Rakkas';
+}
+
+.homep{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'poppins';
+}
+.homebutton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    color: fff;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.homebutton:hover{
+    background-color: white;
+    color: #02AFED;
+}
+
+.homeIndicator{
+    width: 99.20vw;
+  
+    text-align: center;
+    align-items: center;
+   padding-top: 80px;
+    position: absolute;
+    bottom: 10px;
+    justify-content: center;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+.indicatorIcon{
+    width: 60px;
+    height: 60px;
+
+ 
+}
+
+@keyframes floating{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.indicatorP{
+    color: white;
+    font-size: 14px;
+    font-family: 'poppins';
+}
+
+
+
+
+.carouselItem{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.carouselH1{
+    color: white;
+    font-size: 32px;
+    padding: 0 50px 0 50px;
+    width: 900px;
+    text-align: left;
+    font-family: 'poppins';
+}
+
+.carouselP{
+    color: #FFFFFF;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 50px 0 50px;
+    width: 800px;
+    text-align: left;
+    font-family: 'poppins';
+}
+
+.carouselSvg{
+    
+    width: 400px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+
+.carouselSvgEscuro{
+    color: #0485D8;
+    width: 400px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.carouselH1Escuro{
+    color: #0485D8;
+    font-size: 32px;
+    padding: 0 50px 0 50px;
+    width: 800px;
+    text-align: left;
+    font-family: 'poppins';
+}
+
+.carouselPEscuro{
+    color: #0485D8;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 50px 0 50px;
+    width: 800px;
+    text-align: left;
+    font-family: 'poppins';
+}
+
+.footerHome{
+    background: linear-gradient(454deg, rgba(2,114,185,1) 0%, rgba(4,133,216,1) 63%);
+    width: 100vw;
+    height: 60px;
+}
+
+.footerHomeP{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins';
+    opacity: 50%;
+  
+}
+
+.footerHomeA{
+  color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins';
+   
+    
+    gap: 5px;
+  text-decoration: none;
+}
+
+
+
+body.monochrome {
+  filter: grayscale(100%);
+}
+
+body.monochrome{
+  background-image: linear-gradient(to right, #191919, #191919);
+}
+
+@media screen and (max-width:1600px){
+    .homeSvg{
+        width: 300px;
+        margin: 20px;
+      }
+    
+      .main{
+        padding-right: 120px;
+      }
+
+      .carouselH1{
+        width: 600px;
+      }
+
+      .carouselH1Escuro{
+        width: 600px;
+      }
+
+      .carouselP{
+        width: 600px;
+      }
+
+      .carouselPEscuro{
+        width: 600px;
+      }
+
+      .carouselSvg{
+        width: 300px;
+      }
+
+      .carouselSvgEscuro{
+        width: 300px;
+      }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px){
+    .homeContent{
+        padding-top: 100px;
+    }
+
+    .homeh1{
+        width: 500px;
+    }
+
+    .homep{
+        width: 500px;
+    }
+    
+
+    .homeSvg{
+        width: 400px;
+        margin-right: 40px;
+      }
+    
+      .main{
+        padding-right: 80px;
+        padding-left: 40px;
+      }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    .homeSvg{
+        width: 400px;
+        padding-left: 20px;
+    }
+
+    .main{
+        width: 400px;
+        display: block;
+        padding: 40px;
+    }
+
+    
+
+    .homeh1{
+        width: 300px;
+    }
+
+    .homep{
+        width: 300px;
+    }
+
+    .carouselH1{
+        width: 500px;
+      }
+
+      .carouselH1Escuro{
+        width: 500px;
+      }
+
+      .carouselP{
+        width: 500px;
+      }
+
+      .carouselPEscuro{
+        width: 500px;
+      }
+
+      .carouselSvg{
+        width: 300px;
+      }
+
+      .carouselSvgEscuro{
+        width: 300px;
+      }
+
+}
+
+
+
+    @media screen and (max-width: 800px) {
+        .homeh1 {
+            text-align: center;
+          
+        }
+
+        .homeSvg{
+            display: none;
+        }
+
+        
+        .homeContent {
+            padding-top: 0;
+            align-items: center;
+            display: block;
+        }
+    
+        .main {
+            align-items: center;
+            padding-right: 0;
+            text-align: center;
+            position: relative;
+           
+        }
+    
+    
+        
+        .carouselItem {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: block;
+            overflow: hidden;
+        }
+    
+        .carouselSvg {
+            width: 300px;
+            padding: 0;
+        }
+        .carouselH1 {
+            width: 400px;
+           
+            text-align: left;
+            font-size: 26px;
+            align-self: center;
+            justify-content: center;
+        }
+
+      
+    }
+    
+@media screen and (max-width: 600px){
+
+
+   
+    .carouselH1{
+        width: 400px;
+        font-size: 20px;
+        padding-bottom: 30px;
+      }
+
+      .carouselH1Escuro{
+        width: 400px;
+        font-size: 20px;
+        padding-bottom: 30px;
+      }
+
+      .carouselP{
+        width: 400px;
+        font-size: 16px;
+      }
+
+      .carouselPEscuro{
+        width: 400px;
+        font-size: 16px;
+      }
+
+      .carouselSvg{
+        width: 300px;
+      }
+
+      .carouselSvgEscuro{
+        width: 350px;
+      }
+}
+
+@media screen and (max-width: 400px){
+ 
+
+    .carouselH1{
+        width: 350px;
+        font-size: 18px;
+      }
+
+      .carouselH1Escuro{
+        width: 350px;
+        font-size: 18px;
+      }
+
+      .carouselP{
+        width: 350px;
+        height: 300px;
+        font-size: 14px;
+      }
+
+      .carouselPEscuro{
+        width: 350px;
+        font-size: 14px;
+      }
+
+      .carouselSvg{
+        width: 200px;
+      }
+
+      .carouselSvgEscuro{
+        width: 300px;
+      }
+}
+
+@media screen and (max-height: 700px){
+    .carouselH1{
+        width: 350px;
+        font-size: 14px;
+      }
+
+      .carouselH1Escuro{
+        width: 350px;
+       
+        font-size: 14px;
+      }
+
+    .carouselP{
+        width: 350px;
+        height: 300px;
+        font-size: 11px;
+        line-height: 15px;
+      }
+
+      .carouselPEscuro{
+        width: 350px;
+        font-size: 11px;
+        line-height: 15px;
+      }
+
+      .footerHome{
+        position: sticky;
+        bottom: 0;
+
+      }
+
+    }
+
+    
