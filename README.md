@@ -8,7 +8,11 @@ Bem-vindo ao repositório do APPROVE! Este projeto foi desenvolvido como Trabalh
 
 ## 📖 Sobre o Projeto
 
+
+
 O **APPROVE** é uma plataforma de estudos online que combina aprendizado com gamificação. Sabemos que muitos jovens não se sentem totalmente preparados apenas com o ensino regular, e cursos preparatórios particulares podem ser caros.
+
+
 
 Nossa missão é oferecer uma ferramenta onde os estudantes possam:
 
@@ -25,6 +29,8 @@ Nossa missão é oferecer uma ferramenta onde os estudantes possam:
 ##✨ Funcionalidades
 
 
+
+
 O sistema inclui diversas funcionalidades pensadas para proporcionar a melhor experiência ao estudante:
 
 -**🔐 Autenticação segura**: sistema de cadastro e login para salvar seu progresso.
@@ -37,6 +43,9 @@ O sistema inclui diversas funcionalidades pensadas para proporcionar a melhor ex
 
 -**🏅 Ranking:** veja sua posição em relação a outros estudantes (com medalhas de Bronze até Aprovado!).
 
+
+
+
 -**♿ Acessibilidade:**
 
 -🌙 Modo escuro
@@ -44,6 +53,8 @@ O sistema inclui diversas funcionalidades pensadas para proporcionar a melhor ex
 -👋 Integração com VLibras
 
 ## 🛠️ Tecnologias Utilizadas
+
+
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
