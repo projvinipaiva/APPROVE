@@ -44,5 +44,4 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Como acessar o projeto
 
-Os arquivos do projeto estão disponíveis no seguinte link:[Google Drive Link]
-(https://drive.google.com/drive/folders/1J7RIXeU2QkODusJzlGFLeABb2ngH6_SS?usp=sharing)
+- Os arquivos do projeto estão disponíveis no seguinte link: [Google Drive Link](https://drive.google.com/drive/folders/1J7RIXeU2QkODusJzlGFLeABb2ngH6_SS?usp=sharing)
